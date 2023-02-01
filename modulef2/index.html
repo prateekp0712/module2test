@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 Module Test</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="gallery">
+        <img onclick="p1c()" id="pic1" src="images/img.jpg">
+        <img onclick="p2c()" id="pic2" src="images/img1.jpg" style="pointer-events: none;">
+        <img onclick="p3c()" id="pic3" src="images/img2.jpg" style="pointer-events: none;">
+        <img id="pic4" onclick="p4c()" src="images/img3.jpg" style="pointer-events: none;">
+    </div>
+    <div class="form form1">
+        <input type="text" id="f1" placeholder="Name*">
+        <input type="email" id="f2" placeholder="Email*">
+        <input type="text" id="f3" placeholder="Username*">
+        <button id="submit" onclick="sb()">Submit</button>
+    </div>
+
+    <div class="form form2">
+        <h2 id="n"></h2>
+        <h2 id="u"></h2>
+    </div>
+
+    <div class="form form3">
+        <img src="images2/dice-1245106.jpg" id="d" onclick="d()" alt="" class="">
+        <button id="f" onclick="f()" style="pointer-events: none;">Total</button>
+        <h2 id="e"></h2>
+        <button id="try" onclick="tr()">Try again</button>
+    </div>
+
+    <div class="form form4">
+        <img src="images2/comgrats.jpg" id="d" alt="" class="">
+        <h2 id="g"></h2>
+    </div>
+
+    <div class="form form5">
+        <h2 id="m">Bad Luck</h2>
+    </div>
+
+    <script src="./Script.js"></script>
+</body>
